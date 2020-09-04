@@ -1,0 +1,18 @@
+#AREA OF CIRCLE:
+from math import pi
+r = double(input("Input the radius of the circle : "))
+print("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
+
+#FILE EXTENSION:
+name=input("Input the Filename: ")
+extension=name.split(".")
+if(extension[-1]=='py'):
+    print("The extension of the file is : 'Python' " )
+elif(extension[-1]=='java'):
+    print("The extension of the file is : 'Java' " )
+elif(extension[-1]=='c'):
+    print("The extension of the file is : 'C' " )
+else:
+    print("The extension of the file is : " + repr(extension[-1]) )
+
+
