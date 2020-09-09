@@ -1,0 +1,10 @@
+def most_frequent(s):
+    d = dict()
+    for key in s:
+        if key not in d:
+            d[key] = 1
+        else:
+            d[key] += 1
+    return d
+s=input("Please Enter A String : ")
+print(most_frequent(s))
